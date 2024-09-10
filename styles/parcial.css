@@ -1,0 +1,363 @@
+html {
+  font-family: 'Inter';
+  color: #F6F6F6;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #A31717;
+  }
+  
+  .navbar {
+    background-color: #A31717;
+    color: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: #F6F6F6;
+    font-size: 16px;
+  }
+
+  main-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 0;
+  }
+
+  container-right {
+    display: flex;
+    width: 38%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-heading {
+    font-weight: 700;
+    font-size: 64px;
+    color: #F6F6F6;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .information-heading {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 27.5px;
+    width: 90%;
+  }
+
+  .button-heading {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3F3434;
+    width: 167px;
+    height: 48px;
+    border-radius: 8px;
+  }
+
+  span-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+  }
+
+  .span-text {
+    color: #F6F6F6;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  companies-container {
+    display: flex;
+    gap: 8rem;
+    background-color:#857978;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+  }
+
+  secondary-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 5rem 0;
+  }
+
+  contact-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 5rem 0;
+    letter-spacing: 2px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #ADA7A7;
+    border-radius: 8px;
+    flex-direction: row-reverse;
+    width: 80%;
+  }
+
+  .wrapper p {
+    color: white;
+  }
+
+  .wrapper a {
+    background-color: #A31717;
+  }
+  
+  .wrapper h1 {
+    font-size: 52px;
+  }
+
+  footer {
+    background-color: #ADA7A7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25rem;
+  }
+
+  .item ul{
+    list-style: none;
+  }
+
+  .item ul .title {
+    font-weight: bold;
+    margin: 2rem 0;
+  }
+
+  .item ul #info {
+    width: 60%;
+    margin-top: 5rem;
+  }
+
+  .item ul li {
+    color: #F6F6F6;
+    line-height: 25px;
+  }
+
+  head-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7rem;
+  }
+
+  .responsive-comment {
+    display: none;
+  }
+
+  bottom-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #FFDED4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-2 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #FFEED4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-3 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #D4F0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon img {
+      width: 25px;
+      height: 25px;
+  }
+
+  h3 {
+      color: #5D1145;
+      font-family: Arial, sans-serif;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+  }
+
+  p {
+      color: #9e9e9e;
+      font-family: Arial, sans-serif;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .responsive-comment {
+      display: block;
+    }
+
+    card-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    bottom-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    head-container {
+      margin-bottom: 1rem;
+    }
+
+    #responsive {
+      display: none;
+    }
+
+    .navbar {
+      padding: 25px 50px;
+    }
+
+    .navbar-logo {
+      font-size: 14px;
+    }
+
+    .navbar-menu {
+      display: none;
+    }
+
+    main-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    container-right {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      margin: 1rem 0;
+    }
+
+    .main-heading {
+      font-size: 40px;
+    }
+
+    .information-heading {
+      width: 100%;
+      font-size: 17px;
+    }
+
+    secondary-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+      background-color: #331B3B;
+      padding: 1.8rem 1.8rem;
+    }
+
+    .wrapper a {
+      background-color: black;
+    }
+
+    .wrapper h1 {
+      font-size: 30px;
+    }
+
+    .wrapper p {
+      font-size: 14px;
+      line-height: 25px;
+    }
+
+    footer {
+      text-align: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 55rem;
+      align-items: normal;
+      background-color: #331B3B;
+    }
+
+    .item ul #info {
+      width: 95%;
+    }
+
+    companies-container {
+      gap: 15px;
+    }
+
+    companies-container img {
+      width: 4rem;
+      height: 1.5rem;
+    }
+
+    container-left img {
+      width: 15rem;
+    }
+
+    contact-container .wrapper container-left {
+      display: none;
+    }
+  }
+  
+  
